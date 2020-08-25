@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+.container{
+    background: grey;
+}
+
+a {
+    text-decoration: none !important;
+
+    font-weight: 00;
+    font-size: 1.em;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#particles-js{
+    height: 100%;
+    background:#262626;
+}
+.content{
+    position: absolute;
+    display: inline-block;
+    color:black;
+    background-color: #000;
+    opacity: 0.87;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    max-width: 650px;
+    height: 250px;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    z-index: 2;
+}
+
+.name{
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    overflow: hidden;
+    font-size-adjust: 0.70;
+
+}
+
+.info{
+    text-align: center;
+    color:white;
+}
+
+.image-cropper {
+
+   width: 100%;
+   text-align: center;
+   position: relative;
+   overflow: hidden;
+
+}
+
+.circle {
+    height: 70px;
+    width: 70px;
+    background-color:white;
+    border-radius: 50%;
+  }
+  .profileImage{
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      background-image: url("mohammed.jpg");
+      margin-left: auto;
+      margin-right: auto;
+      background-size: cover;
+      display: block;
+  }
+
+  h1{
+      margin-top: 0;
+      font-size: 45px;
+  }
+  p{
+     position: relative;
+     bottom: 35px;
+  }
+
+  #ref{
+      display: inline-block;
+      position: relative;
+      width: auto;
+      letter-spacing: 1em;
+      font-size: 1.5em;
+      bottom: 1em;
+      left: 52%;
+      transform: translate(-50%,-50%);
+
+  }
+
+.fab fa-linkedin{
+    color: #0077B5
+
+  }
+
+.fa-comments {
+
+    color: grey
+
+}
+.fas fa-file-invoice{
+    color:#ff0000 ;
+
+}
